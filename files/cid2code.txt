@@ -1,4 +1,4 @@
-# cid2code.txt (Version 09/13/2000)
+# cid2code.txt (Version 05/10/2001)
 #
 # The data in this table contains 25 tab-delimited columns of
 # information. The contents of this file supplement Technical Note
@@ -9534,7 +9534,7 @@ CID	H	RKSJ	EUC	83pv-RKSJ	Add	Add-RKSJ	Ext	Ext-RKSJ	NWP	90pv-RKSJ	90ms-RKSJ	90msp
 9394	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	01cd	*	c78d	*	*	*	*	*
 9395	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	011a	*	c49a	*	*	*	*	*
 9396	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-9397	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	0ebc	*	e0babc	*	*	*	*	*
+9397	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	1ebc	*	e1babc	*	*	*	*	*
 9398	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	01cf	*	c78f	*	*	*	*	*
 9399	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 9400	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	0128	*	c4a8	*	*	*	*	*
@@ -9546,7 +9546,7 @@ CID	H	RKSJ	EUC	83pv-RKSJ	Add	Add-RKSJ	Ext	Ext-RKSJ	NWP	90pv-RKSJ	90ms-RKSJ	90msp
 9406	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	01ce	*	c78e	*	*	*	*	*
 9407	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	011b	*	c49b	*	*	*	*	*
 9408	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-9409	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	0ebd	*	e0babd	*	*	*	*	*
+9409	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	1ebd	*	e1babd	*	*	*	*	*
 9410	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	01d0	*	c790	*	*	*	*	*
 9411	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 9412	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	0129	*	c4a9	*	*	*	*	*
