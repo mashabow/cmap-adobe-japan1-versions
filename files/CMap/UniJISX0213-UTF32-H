@@ -3,7 +3,7 @@
 %%IncludeResource: ProcSet (CIDInit)
 %%BeginResource: CMap (UniJISX0213-UTF32-H)
 %%Title: (UniJISX0213-UTF32-H Adobe Japan1 5)
-%%Version: 1.001
+%%Version: 1.002
 %%Copyright: -----------------------------------------------------------
 %%Copyright: Copyright 1990-2003 Adobe Systems Incorporated.
 %%Copyright: All Rights Reserved.
@@ -37,7 +37,7 @@ begincmap
 end def
 
 /CMapName /UniJISX0213-UTF32-H def
-/CMapVersion 1.001 def
+/CMapVersion 1.002 def
 /CMapType 1 def
 
 /XUID [1 10 25614] def
@@ -259,7 +259,7 @@ endcidchar
 endcidchar
 
 100 begincidchar
-<000002c0> 15897
+<000002c1> 15897
 <000002c7> 15749
 <000002c8> 15846
 <000002cc> 15847
