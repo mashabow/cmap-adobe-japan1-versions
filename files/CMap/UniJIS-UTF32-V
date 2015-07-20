@@ -5,9 +5,9 @@
 %%IncludeResource: CMap (UniJIS-UTF32-H)
 %%BeginResource: CMap (UniJIS-UTF32-V)
 %%Title: (UniJIS-UTF32-V Adobe Japan1 6)
-%%Version: 1.001
+%%Version: 1.002
 %%Copyright: -----------------------------------------------------------
-%%Copyright: Copyright 1990-2004 Adobe Systems Incorporated.
+%%Copyright: Copyright 1990-2005 Adobe Systems Incorporated.
 %%Copyright: All Rights Reserved.
 %%Copyright:
 %%Copyright: Patents Pending
@@ -41,7 +41,7 @@ begincmap
 end def
 
 /CMapName /UniJIS-UTF32-V def
-/CMapVersion 1.001 def
+/CMapVersion 1.002 def
 /CMapType 1 def
 
 /XUID [1 10 25610] def
@@ -139,7 +139,6 @@ end def
 <0000301c> 7894
 <0000301d> 7956
 <0000301f> 7957
-<0000303b> 12107
 <00003041> 7918
 <00003043> 7919
 <00003045> 7920
@@ -149,10 +148,10 @@ end def
 <00003083> 7924
 <00003085> 7925
 <00003087> 7926
+<0000308e> 7927
 endcidchar
 
-79 begincidchar
-<0000308e> 7927
+78 begincidchar
 <0000309b> 8272
 <0000309c> 8271
 <000030a0> 16331

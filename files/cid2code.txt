@@ -1,8 +1,8 @@
-# cid2code.txt (Version 11/09/2005)
+# cid2code.txt (Version 12/14/2005)
 #
 # The data in this table contains 28 tab-delimited columns of
 # information. The contents of this file supplement Technical Notes
-# #5078 "Adobe-Japan1-6 Character Collection for CID-Keyed Fonts":
+# #5078 "Adobe-Japan1-6 Character Collection for CID Keyed Fonts":
 #
 # http://partners.adobe.com/asn/tech/type/ftechnotes.jsp
 #
@@ -8153,7 +8153,7 @@ CID	H	RKSJ	EUC	83pv-RKSJ	Add	Add-RKSJ	Ext	Ext-RKSJ	NWP	90pv-RKSJ	90ms-RKSJ	90msp
 7894	2141v	8160v	a1c1v	eb60	7d2a,2141v	ef49,8160v	2141v	8160v	2141v	eb60,8160v	8160v	8160v	2141v	8160v	8160v	a1c1v	223cv,301cv,ff5ev	223cv,301cv,ff5ev	e3809cv,efbd9ev	301cv,ff5ev	0000301cv,0000ff5ev	0000301cv,0000ff5ev	*	*	*	*	34
 7895	2142v	8161v	a1c2v	eb61	7d2b,2142v	ef4a,8161v	2142v	8161v	2142v	eb61,8161v	8161v	8161v	2142v	8161v	8161v	a1c2v	2016v,2225v	2016v,2225v	e28096v	2016v	00002016v	00002016v	*	*	*	*	*
 7896	2143v	8162v	a1c3v	eb62	7d2c,2143v	ef4b,8162v	2143v	8162v	2143v	eb62,8162v	8162v	8162v	2143v	8162v	8162v	a1c3v	ff5cv	ff5cv	efbd9cv	ff5cv	0000ff5cv	0000ff5cv	*	*	*	*	*
-7897	2144v	8163v	a1c4v	eb63	7d2d,2144v	ef4c,8163v	2144v	8163v	2144v	eb63,8163v	8163v	8163v	2144v	8163v	8163v	a1c4v	22ee,2026v,22efv	2026v,22efv	e2819d,e280a6v	205d,2026v	0000205d,00002026v	0000205d,0000fe19,00002026v	*	*	*	*	*
+7897	2144v	8163v	a1c4v	eb63	7d2d,2144v	ef4c,8163v	2144v	8163v	2144v	eb63,8163v	8163v	8163v	2144v	8163v	8163v	a1c4v	22ee,2026v,22efv	2026v,22efv	e2819d,efb899,e280a6v	205d,fe19,2026v	0000205d,0000fe19,00002026v	0000205d,0000fe19,00002026v	*	*	*	*	*
 7898	2145v	8164v	a1c5v	eb64	7d2e,2145v	ef4d,8164v	2145v	8164v	2145v	eb64,8164v	8164v	8164v	2145v	8164v	8164v	a1c5v	fe30,2025v	2025v	e2819a,efb8b0,e280a5v	205a,fe30,2025v	0000205a,0000fe30,00002025v	0000205a,0000fe30,00002025v	*	*	*	*	*
 7899	214av	8169v	a1cav	eb69	7d33,214av	ef52,8169v	214av	8169v	214av	eb69,8169v	8169v	8169v	214av	8169v	8169v	a1cav	fe35,ff08v	ff08v	efb8b5,efbc88v	fe35,ff08v	0000fe35,0000ff08v	0000fe35,0000ff08v	*	*	*	*	32
 7900	214bv	816av	a1cbv	eb6a	7d34,214bv	ef53,816av	214bv	816av	214bv	eb6a,816av	816av	816av	214bv	816av	816av	a1cbv	fe36,ff09v	ff09v	efb8b6,efbc89v	fe36,ff09v	0000fe36,0000ff09v	0000fe36,0000ff09v	*	*	*	*	33
@@ -12363,7 +12363,7 @@ CID	H	RKSJ	EUC	83pv-RKSJ	Add	Add-RKSJ	Ext	Ext-RKSJ	NWP	90pv-RKSJ	90ms-RKSJ	90msp
 12104	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 12105	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 12106	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	e380bb	303b	0000303b	0000303b	*	*	*	*	*
-12107	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	e380bbv	303bv	0000303bv	0000303bv	*	*	*	*	*
+12107	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 12108	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	3033	*	e380b3	3033	00003033	00003033	*	*	*	*	*
 12109	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	3034	*	e380b4	3034	00003034	00003034	*	*	*	*	*
 12110	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	3035	*	e380b5	3035	00003035	00003035	*	*	*	*	*

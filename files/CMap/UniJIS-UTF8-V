@@ -5,9 +5,9 @@
 %%IncludeResource: CMap (UniJIS-UTF8-H)
 %%BeginResource: CMap (UniJIS-UTF8-V)
 %%Title: (UniJIS-UTF8-V Adobe Japan1 6)
-%%Version: 13.001
+%%Version: 13.002
 %%Copyright: -----------------------------------------------------------
-%%Copyright: Copyright 1990-2004 Adobe Systems Incorporated.
+%%Copyright: Copyright 1990-2005 Adobe Systems Incorporated.
 %%Copyright: All Rights Reserved.
 %%Copyright:
 %%Copyright: Patents Pending
@@ -41,7 +41,7 @@ begincmap
 end def
 
 /CMapName /UniJIS-UTF8-V def
-/CMapVersion 13.001 def
+/CMapVersion 13.002 def
 /CMapType 1 def
 
 /XUID [1 10 25440] def
@@ -139,7 +139,6 @@ end def
 <e3809c> 7894
 <e3809d> 7956
 <e3809f> 7957
-<e380bb> 12107
 <e38181> 7918
 <e38183> 7919
 <e38185> 7920
@@ -149,10 +148,10 @@ end def
 <e38283> 7924
 <e38285> 7925
 <e38287> 7926
+<e3828e> 7927
 endcidchar
 
-80 begincidchar
-<e3828e> 7927
+79 begincidchar
 <e3829b> 8272
 <e3829c> 8271
 <e382a0> 16331
