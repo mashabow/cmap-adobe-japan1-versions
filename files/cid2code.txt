@@ -1,4 +1,4 @@
-# cid2code.txt (Version 06/05/2004)
+# cid2code.txt (Version 11/09/2005)
 #
 # The data in this table contains 28 tab-delimited columns of
 # information. The contents of this file supplement Technical Notes
@@ -105,19 +105,19 @@
 #   files is recommended.)
 #
 # o Column 20: Character codes for the "UniJIS-UTF8-H" and
-#   "UniJIS-UTF8-V" CMaps (Unicode 3.2 UTF-8 encoding, proportional
+#   "UniJIS-UTF8-V" CMaps (Unicode 4.1 UTF-8 encoding, proportional
 #   Latin characters).
 #
 # o Column 21: Character codes for the "UniJIS-UTF16-H" and
-#   "UniJIS-UTF16-V" CMaps (Unicode 3.2 UTF-16 encoding, proportional
+#   "UniJIS-UTF16-V" CMaps (Unicode 4.1 UTF-16 encoding, proportional
 #   Latin characters).
 #
 # o Column 22: Character codes for the "UniJIS-UTF32-H" and
-#   "UniJIS-UTF32-V" CMaps (Unicode 3.2 UTF-32 encoding, proportional
+#   "UniJIS-UTF32-V" CMaps (Unicode 4.1 UTF-32 encoding, proportional
 #   Latin characters).
 #
 # o Column 23: Character codes for the "UniJISX0213-UTF32-H" and
-#   "UniJISX0213-UTF32-V" CMaps (Unicode 3.2 UTF-32 encoding,
+#   "UniJISX0213-UTF32-V" CMaps (Unicode 4.1 UTF-32 encoding,
 #   proportional Latin characters, some proportional JIS X 0208:1997
 #   characters).
 #
@@ -8143,8 +8143,8 @@ CID	H	RKSJ	EUC	83pv-RKSJ	Add	Add-RKSJ	Ext	Ext-RKSJ	NWP	90pv-RKSJ	90ms-RKSJ	90msp
 7884	*	*	*	*	724e	e9cc	724e	e9cc	724e	*	*	*	724e	e9cc	e9cc	f2ce	*	*	*	*	*	*	*	*	*	*	*
 7885	*	*	*	*	7351	ea70	7351	ea70	7351	*	*	*	7351	ea70	ea70	f3d1	*	*	*	*	*	*	*	*	*	*	*
 7886	*	*	*	*	737d	ea9d	737d	ea9d	737d	*	*	*	737d	ea9d	ea9d	f3fd	*	*	*	*	*	*	*	*	*	*	*
-7887	2122v	8141v	a1a2v	eb41	7d21,2122v	ef40,8141v	2122v	8141v	2122v,2f24v	eb41,8141v	8141v	8141v	2122v	8141v	8141v	a1a2v	3001v	3001v	e38081v	3001v	00003001v	00003001v	*	*	*	*	*
-7888	2123v	8142v	a1a3v	eb42	7d22,2123v	ef41,8142v	2123v	8142v	2123v,2f21v	eb42,8142v	8142v	8142v	2123v	8142v	8142v	a1a3v	3002v	3002v	e38082v	3002v	00003002v	00003002v	*	*	*	*	*
+7887	2122v	8141v	a1a2v	eb41	7d21,2122v	ef40,8141v	2122v	8141v	2122v,2f24v	eb41,8141v	8141v	8141v	2122v	8141v	8141v	a1a2v	3001v	3001v	efb891,e38081v	fe11,3001v	0000fe11,00003001v	0000fe11,00003001v	*	*	*	*	*
+7888	2123v	8142v	a1a3v	eb42	7d22,2123v	ef41,8142v	2123v	8142v	2123v,2f21v	eb42,8142v	8142v	8142v	2123v	8142v	8142v	a1a3v	3002v	3002v	efb892,e38082v	fe12,3002v	0000fe12,00003002v	0000fe12,00003002v	*	*	*	*	*
 7889	2131v	8150v	a1b1v	eb50	7d25,2131v	ef44,8150v	*	*	*	eb50,8150v	8150v	8150v	2131v	8150v	8150v	a1b1v	ffe3v	ffe3v	efbfa3v	ffe3v	0000ffe3v	0000ffe3v	*	*	*	*	*
 7890	2132v	8151v	a1b2v	eb51	7d26,2132v	ef45,8151v	*	*	*	eb51,8151v	8151v	8151v	2132v	8151v	8151v	a1b2v	fe33,ff3fv	ff3fv	efb8b3,efbcbfv	fe33,ff3fv	0000fe33,0000ff3fv	0000fe33,0000ff3fv	*	*	*	*	*
 7891	213cv	815bv	a1bcv	eb5b	7d27,213cv	ef46,815bv	213cv	815bv	213cv,2f30v	eb5b,815bv	815bv	815bv	213cv	815bv	815bv	a1bcv	30fcv	30fcv	e383bcv	30fcv	000030fcv	000030fcv	*	*	*	*	*
@@ -8153,8 +8153,8 @@ CID	H	RKSJ	EUC	83pv-RKSJ	Add	Add-RKSJ	Ext	Ext-RKSJ	NWP	90pv-RKSJ	90ms-RKSJ	90msp
 7894	2141v	8160v	a1c1v	eb60	7d2a,2141v	ef49,8160v	2141v	8160v	2141v	eb60,8160v	8160v	8160v	2141v	8160v	8160v	a1c1v	223cv,301cv,ff5ev	223cv,301cv,ff5ev	e3809cv,efbd9ev	301cv,ff5ev	0000301cv,0000ff5ev	0000301cv,0000ff5ev	*	*	*	*	34
 7895	2142v	8161v	a1c2v	eb61	7d2b,2142v	ef4a,8161v	2142v	8161v	2142v	eb61,8161v	8161v	8161v	2142v	8161v	8161v	a1c2v	2016v,2225v	2016v,2225v	e28096v	2016v	00002016v	00002016v	*	*	*	*	*
 7896	2143v	8162v	a1c3v	eb62	7d2c,2143v	ef4b,8162v	2143v	8162v	2143v	eb62,8162v	8162v	8162v	2143v	8162v	8162v	a1c3v	ff5cv	ff5cv	efbd9cv	ff5cv	0000ff5cv	0000ff5cv	*	*	*	*	*
-7897	2144v	8163v	a1c4v	eb63	7d2d,2144v	ef4c,8163v	2144v	8163v	2144v	eb63,8163v	8163v	8163v	2144v	8163v	8163v	a1c4v	22ee,2026v,22efv	2026v,22efv	e280a6v	2026v	00002026v	00002026v	*	*	*	*	*
-7898	2145v	8164v	a1c5v	eb64	7d2e,2145v	ef4d,8164v	2145v	8164v	2145v	eb64,8164v	8164v	8164v	2145v	8164v	8164v	a1c5v	fe30,2025v	2025v	efb8b0,e280a5v	fe30,2025v	0000fe30,00002025v	0000fe30,00002025v	*	*	*	*	*
+7897	2144v	8163v	a1c4v	eb63	7d2d,2144v	ef4c,8163v	2144v	8163v	2144v	eb63,8163v	8163v	8163v	2144v	8163v	8163v	a1c4v	22ee,2026v,22efv	2026v,22efv	e2819d,e280a6v	205d,2026v	0000205d,00002026v	0000205d,0000fe19,00002026v	*	*	*	*	*
+7898	2145v	8164v	a1c5v	eb64	7d2e,2145v	ef4d,8164v	2145v	8164v	2145v	eb64,8164v	8164v	8164v	2145v	8164v	8164v	a1c5v	fe30,2025v	2025v	e2819a,efb8b0,e280a5v	205a,fe30,2025v	0000205a,0000fe30,00002025v	0000205a,0000fe30,00002025v	*	*	*	*	*
 7899	214av	8169v	a1cav	eb69	7d33,214av	ef52,8169v	214av	8169v	214av	eb69,8169v	8169v	8169v	214av	8169v	8169v	a1cav	fe35,ff08v	ff08v	efb8b5,efbc88v	fe35,ff08v	0000fe35,0000ff08v	0000fe35,0000ff08v	*	*	*	*	32
 7900	214bv	816av	a1cbv	eb6a	7d34,214bv	ef53,816av	214bv	816av	214bv	eb6a,816av	816av	816av	214bv	816av	816av	a1cbv	fe36,ff09v	ff09v	efb8b6,efbc89v	fe36,ff09v	0000fe36,0000ff09v	0000fe36,0000ff09v	*	*	*	*	33
 7901	214cv	816bv	a1ccv	eb6b	7d35,214cv	ef54,816bv	214cv	816bv	214cv	eb6b,816bv	816bv	816bv	214cv	816bv	816bv	a1ccv	fe39,3014v	3014v	efb8b9,e38094v	fe39,3014v	0000fe39,00003014v	0000fe39,00003014v	*	*	*	*	*
@@ -8524,7 +8524,7 @@ CID	H	RKSJ	EUC	83pv-RKSJ	Add	Add-RKSJ	Ext	Ext-RKSJ	NWP	90pv-RKSJ	90ms-RKSJ	90msp
 8265	*	*	*	*	7d5c,2476v	ef7b,82f4v	*	*	*	*	*	*	*	*	*	*	*	*	e38296v	3096v	00003096v	00003096v	*	*	*	*	*
 8266	*	*	*	*	*	*	*	*	*	*	*	*	3029	88a7	88a7	b0a9	*	*	*	*	*	*	*	*	*	*	*
 8267	*	*	*	*	*	*	*	*	*	*	*	*	4454	92d2	92d2	c4d4	*	*	*	*	*	*	*	*	*	*	*
-8268	*	*	*	*	7d23,2124v	ef42,8143v	2124v	8143v	2124v	*	8143v	8143v	*	*	8143v	*	ff0cv	ff0cv	efbc8cv	ff0cv	0000ff0cv	0000ff0cv	*	*	*	*	*
+8268	*	*	*	*	7d23,2124v	ef42,8143v	2124v	8143v	2124v	*	8143v	8143v	*	*	8143v	*	ff0cv	ff0cv	efb890,efbc8cv	fe10,ff0cv	0000fe10,0000ff0cv	0000fe10,0000ff0cv	*	*	*	*	*
 8269	*	*	*	*	*	*	216bv	818bv	216bv	*	*	*	*	*	*	*	00b0v	00b0v	c2b0v	00b0v	000000b0v	*	*	*	*	*	*
 8270	*	*	*	*	*	*	222ev	81acv	222ev	*	81acv	81acv	*	*	81acv	*	3013v	3013v	*	*	*	*	*	*	*	*	*
 8271	*	*	*	*	*	*	212cv	814bv	212cv,2f5fv	*	*	*	*	*	*	*	309cv	309cv	e3829cv	309cv	0000309cv	0000309cv	*	*	*	*	*
@@ -9691,7 +9691,7 @@ CID	H	RKSJ	EUC	83pv-RKSJ	Add	Add-RKSJ	Ext	Ext-RKSJ	NWP	90pv-RKSJ	90ms-RKSJ	90msp
 9432	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	025b	*	c99b	025b	0000025b	0000025b	*	*	*	*	*
 9433	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	e1bdb3	1f73	00001f73	00001f73	*	*	*	*	*
 9434	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	e1bdb2	1f72	00001f72	00001f72	*	*	*	*	*
-9435	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
+9435	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	c8b7	0237	00000237	00000237	*	*	*	*	*
 9436	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	014b	*	c58b	014b	0000014b	0000014b	*	*	*	*	*
 9437	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	0275	*	c9b5	0275	00000275	00000275	*	*	*	*	*
 9438	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	028c	*	ca8c	028c	0000028c	0000028c	*	*	*	*	*
@@ -14304,7 +14304,7 @@ CID	H	RKSJ	EUC	83pv-RKSJ	Add	Add-RKSJ	Ext	Ext-RKSJ	NWP	90pv-RKSJ	90ms-RKSJ	90msp
 14045	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 14046	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 14047	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	e391a8	3468	00003468	00003468	*	*	*	*	*
-14048	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
+14048	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	e9beb4	9fb4	00009fb4	00009fb4	*	*	*	*	*
 14049	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 14050	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 14051	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
