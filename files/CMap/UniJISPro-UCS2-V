@@ -3,9 +3,9 @@
 %%DocumentNeededResources: CMap (UniJIS-UCS2-H)
 %%IncludeResource: ProcSet (CIDInit)
 %%IncludeResource: CMap (UniJIS-UCS2-H)
-%%BeginResource: CMap (UniJIS-UCS2-HW-V)
-%%Title: (UniJIS-UCS2-HW-V Adobe Japan1 4)
-%%Version: 12.001
+%%BeginResource: CMap (UniJISPro-UCS2-V)
+%%Title: (UniJISPro-UCS2-V Adobe Japan1 4)
+%%Version: 1.000
 %%Copyright: -----------------------------------------------------------
 %%Copyright: Copyright 1990-2000 Adobe Systems Incorporated.
 %%Copyright: All Rights Reserved.
@@ -40,25 +40,21 @@ begincmap
   /Supplement 4 def
 end def
 
-/CMapName /UniJIS-UCS2-HW-V def
-/CMapVersion 12.001 def
+/CMapName /UniJISPro-UCS2-V def
+/CMapVersion 1.000 def
 /CMapType 1 def
 
-/XUID [1 10 25449] def
+/XUID [1 10 25535] def
 
 /WMode 1 def
 
 100 begincidrange
-<0020> <005b> 231
-<005c> <005c> 8719
-<005d> <007e> 292
-<00a5> <00a5> 291
 <00b0> <00b0> 8269
 <2010> <2010> 7893
 <2015> <2015> 7892
 <2016> <2016> 7895
-<2018> <2019> 8281
-<201c> <201d> 8279
+<2018> <2019> 12173
+<201c> <201d> 7956
 <2025> <2025> 7898
 <2026> <2026> 7897
 <2032> <2032> 8273
@@ -149,13 +145,13 @@ end def
 <301f> <301f> 7957
 <3041> <3041> 7918
 <3043> <3043> 7919
-endcidrange
-
-99 begincidrange
 <3045> <3045> 7920
 <3047> <3047> 7921
 <3049> <3049> 7922
 <3063> <3063> 7923
+endcidrange
+
+100 begincidrange
 <3083> <3083> 7924
 <3085> <3085> 7925
 <3087> <3087> 7926
@@ -238,10 +234,15 @@ endcidrange
 <3354> <3354> 12035
 <3355> <3356> 12039
 <3357> <3357> 8344
+<337b> <337b> 12044
+<337c> <337c> 12043
+<337d> <337d> 12042
+<337e> <337e> 12041
 <337f> <337f> 8324
 <ff08> <ff09> 7899
 <ff0c> <ff0c> 8268
 <ff0e> <ff0e> 8274
+<ff1a> <ff1a> 12101
 <ff1d> <ff1d> 7917
 <ff3b> <ff3b> 7903
 <ff3d> <ff3d> 7904

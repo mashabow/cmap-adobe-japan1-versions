@@ -3,9 +3,9 @@
 %%DocumentNeededResources: CMap (UniJIS-UTF8-H)
 %%IncludeResource: ProcSet (CIDInit)
 %%IncludeResource: CMap (UniJIS-UTF8-H)
-%%BeginResource: CMap (UniJIS-UTF8-V)
-%%Title: (UniJIS-UTF8-V Adobe Japan1 4)
-%%Version: 12.001
+%%BeginResource: CMap (UniJISPro-UTF8-V)
+%%Title: (UniJISPro-UTF8-V Adobe Japan1 4)
+%%Version: 1.000
 %%Copyright: -----------------------------------------------------------
 %%Copyright: Copyright 1990-2000 Adobe Systems Incorporated.
 %%Copyright: All Rights Reserved.
@@ -40,11 +40,11 @@ begincmap
   /Supplement 4 def
 end def
 
-/CMapName /UniJIS-UTF8-V def
-/CMapVersion 12.001 def
+/CMapName /UniJISPro-UTF8-V def
+/CMapVersion 1.000 def
 /CMapType 1 def
 
-/XUID [1 10 25440] def
+/XUID [1 10 25536] def
 
 /WMode 1 def
 
@@ -53,8 +53,8 @@ end def
 <e28090> <e28090> 7893
 <e28095> <e28095> 7892
 <e28096> <e28096> 7895
-<e28098> <e28099> 8281
-<e2809c> <e2809d> 8279
+<e28098> <e28099> 12173
+<e2809c> <e2809d> 7956
 <e280a5> <e280a5> 7898
 <e280a6> <e280a6> 7897
 <e280b2> <e280b2> 8273
@@ -151,7 +151,7 @@ end def
 <e381a3> <e381a3> 7923
 endcidrange
 
-96 begincidrange
+100 begincidrange
 <e38283> <e38283> 7924
 <e38285> <e38285> 7925
 <e38287> <e38287> 7926
@@ -235,10 +235,15 @@ endcidrange
 <e38d94> <e38d94> 12035
 <e38d95> <e38d96> 12039
 <e38d97> <e38d97> 8344
+<e38dbb> <e38dbb> 12044
+<e38dbc> <e38dbc> 12043
+<e38dbd> <e38dbd> 12042
+<e38dbe> <e38dbe> 12041
 <e38dbf> <e38dbf> 8324
 <efbc88> <efbc89> 7899
 <efbc8c> <efbc8c> 8268
 <efbc8e> <efbc8e> 8274
+<efbc9a> <efbc9a> 12101
 <efbc9d> <efbc9d> 7917
 <efbcbb> <efbcbb> 7903
 <efbcbd> <efbcbd> 7904
@@ -247,6 +252,9 @@ endcidrange
 <efbd9c> <efbd9c> 7896
 <efbd9d> <efbd9d> 7906
 <efbd9e> <efbd9e> 7894
+endcidrange
+
+1 begincidrange
 <efbfa3> <efbfa3> 7889
 endcidrange
 endcmap
