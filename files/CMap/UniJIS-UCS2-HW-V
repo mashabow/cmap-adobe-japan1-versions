@@ -3,11 +3,11 @@
 %%DocumentNeededResources: CMap (UniJIS-UCS2-H)
 %%IncludeResource: ProcSet (CIDInit)
 %%IncludeResource: CMap (UniJIS-UCS2-H)
-%%BeginResource: CMap (UniJIS-UCS2-V)
-%%Title: (UniJIS-UCS2-V Adobe Japan1 2)
+%%BeginResource: CMap (UniJIS-UCS2-HW-V)
+%%Title: (UniJIS-UCS2-HW-V Adobe Japan1 2)
 %%Version: 11.001
 %%Copyright: -----------------------------------------------------------
-%%Copyright: Copyright 1990-1998 Adobe Systems Incorporated.
+%%Copyright: Copyright 1990-1999 Adobe Systems Incorporated.
 %%Copyright: All Rights Reserved.
 %%Copyright:
 %%Copyright: Patents Pending
@@ -40,17 +40,21 @@ begincmap
   /Supplement 2 def
 end def
 
-/CMapName /UniJIS-UCS2-V def
+/CMapName /UniJIS-UCS2-HW-V def
 /CMapVersion 11.001 def
 /CMapType 1 def
 
-/XUID [1 10 25357] def
+/XUID [1 10 25449] def
 
 /WMode 1 def
 
 100 begincidrange
+<0020> <005b> 231
+<005c> <005c> 8719
+<005d> <007e> 292
+<00a5> <00a5> 291
 <00b0> <00b0> 8269
-<2010> <2010> 7893
+<2010> <2010> 662
 <2015> <2015> 7892
 <2016> <2016> 7895
 <2018> <2019> 8281
@@ -145,13 +149,13 @@ end def
 <30a3> <30a3> 7929
 <30a5> <30a5> 7930
 <30a7> <30a7> 7931
+endcidrange
+
+49 begincidrange
 <30a9> <30a9> 7932
 <30c3> <30c3> 7933
 <30e3> <30e3> 7934
 <30e5> <30e5> 7935
-endcidrange
-
-45 begincidrange
 <30e7> <30e7> 7936
 <30ee> <30ee> 7937
 <30f5> <30f6> 7938

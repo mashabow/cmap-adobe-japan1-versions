@@ -3,9 +3,9 @@
 %%IncludeResource: ProcSet (CIDInit)
 %%BeginResource: CMap (UniJIS-UTF8-H)
 %%Title: (UniJIS-UTF8-H Adobe Japan1 2)
-%%Version: 9.001
+%%Version: 11.001
 %%Copyright: -----------------------------------------------------------
-%%Copyright: Copyright 1990-1998 Adobe Systems Incorporated.
+%%Copyright: Copyright 1990-1999 Adobe Systems Incorporated.
 %%Copyright: All Rights Reserved.
 %%Copyright:
 %%Copyright: Patents Pending
@@ -37,7 +37,7 @@ begincmap
 end def
 
 /CMapName /UniJIS-UTF8-H def
-/CMapVersion 9.001 def
+/CMapVersion 11.001 def
 /CMapType 1 def
 
 /XUID [1 10 25359] def
@@ -135,7 +135,7 @@ endnotdefrange
 <d191> <d191> 1098
 <e28082> <e28082> 231
 <e28083> <e28083> 633
-<e28090> <e28090> 14
+<e28090> <e28090> 662
 <e28091> <e28091> 14
 <e28092> <e28092> 114
 <e28093> <e28093> 114
@@ -162,6 +162,7 @@ endcidrange
 <e2839d> <e2839d> 779
 <e28483> <e28483> 710
 <e28489> <e28489> 8305
+<e2848a> <e2848a> 8304
 <e28493> <e28493> 8025
 <e28496> <e28496> 7610
 <e284a1> <e284a1> 8055
@@ -257,10 +258,10 @@ endcidrange
 <e29787> <e29787> 726
 <e29789> <e29789> 8210
 <e2978b> <e2978b> 723
-<e2978e> <e2978e> 725
 endcidrange
 
 100 begincidrange
+<e2978e> <e2978e> 725
 <e2978f> <e2978f> 724
 <e297a2> <e297a3> 8255
 <e297a4> <e297a4> 8258
@@ -360,10 +361,10 @@ endcidrange
 <e38c98> <e38c98> 8040
 <e38c9e> <e38c9e> 8051
 <e38ca2> <e38ca2> 8038
-<e38ca3> <e38ca3> 8043
 endcidrange
 
 100 begincidrange
+<e38ca3> <e38ca3> 8043
 <e38ca6> <e38ca6> 7596
 <e38ca7> <e38ca7> 7590
 <e38caa> <e38caa> 8052
@@ -463,10 +464,10 @@ endcidrange
 <e4b9b3> <e4b9b3> 3285
 <e4b9be> <e4b9be> 1505
 <e4ba80> <e4ba80> 1615
-<e4ba82> <e4ba82> 4101
 endcidrange
 
 100 begincidrange
+<e4ba82> <e4ba82> 4101
 <e4ba85> <e4ba85> 4102
 <e4ba86> <e4ba86> 3971
 <e4ba88> <e4ba88> 3879
@@ -566,10 +567,10 @@ endcidrange
 <e4bd99> <e4bd99> 3880
 <e4bd9a> <e4bd9a> 4126
 <e4bd9b> <e4bd9b> 4128
-<e4bd9c> <e4bd9c> 2142
 endcidrange
 
 100 begincidrange
+<e4bd9c> <e4bd9c> 2142
 <e4bd9d> <e4bd9d> 4129
 <e4bd9e> <e4bd9e> 4563
 <e4bda9> <e4bda9> 4137
@@ -669,10 +670,10 @@ endcidrange
 <e58187> <e58187> 4170
 <e58188> <e58188> 4174
 <e58189> <e58189> 1170
-<e5818f> <e5818f> 3616
 endcidrange
 
 100 begincidrange
+<e5818f> <e5818f> 3616
 <e58190> <e58190> 4173
 <e58195> <e58195> 4172
 <e58196> <e58196> 4176
@@ -772,10 +773,10 @@ endcidrange
 <e585ae> <e585ae> 4217
 <e585b1> <e585b1> 1694
 <e585b5> <e585b5> 3596
-<e585b6> <e585b6> 2838
 endcidrange
 
 100 begincidrange
+<e585b6> <e585b6> 2838
 <e585b7> <e585b7> 1769
 <e585b8> <e585b8> 3119
 <e585bc> <e585bc> 1865
@@ -875,10 +876,10 @@ endcidrange
 <e5898a> <e5898a> 2143
 <e5898b> <e5898c> 4261
 <e5898d> <e5898d> 2738
-<e5898f> <e5898f> 4259
 endcidrange
 
 100 begincidrange
+<e5898f> <e5898f> 4259
 <e58994> <e58994> 4264
 <e58996> <e58996> 3684
 <e5899b> <e5899b> 2038
@@ -978,10 +979,10 @@ endcidrange
 <e58cb3> <e58cb3> 4306
 <e58cb8> <e58cb8> 4307
 <e58cb9> <e58cb9> 3478
-<e58cba> <e58cba> 1760
 endcidrange
 
 100 begincidrange
+<e58cba> <e58cba> 1760
 <e58cbb> <e58cbb> 1193
 <e58cbf> <e58cbf> 3223
 <e58d80> <e58d80> 4308
@@ -1081,10 +1082,10 @@ endcidrange
 <e59089> <e59089> 1634
 <e5908a> <e5908a> 3067
 <e5908b> <e5908b> 1223
-<e5908c> <e5908c> 3209
 endcidrange
 
 100 begincidrange
+<e5908c> <e5908c> 3209
 <e5908d> <e5908d> 3786
 <e5908e> <e5908e> 1971
 <e5908f> <e5908f> 3939
@@ -1184,10 +1185,10 @@ endcidrange
 <e594b8> <e594b8> 4396
 <e594b9> <e594b9> 4387
 <e594be> <e594be> 2851
-<e59580> <e59580> 4388
 endcidrange
 
 100 begincidrange
+<e59580> <e59580> 4388
 <e59584> <e59584> 2895
 <e59585> <e59585> 4393
 <e59586> <e59586> 2446
@@ -1287,10 +1288,10 @@ endcidrange
 <e59b83> <e59b83> 4453
 <e59b88> <e59b88> 4455
 <e59b8a> <e59b8a> 7770
-<e59b8e> <e59b8e> 4456
 endcidrange
 
 100 begincidrange
+<e59b8e> <e59b8e> 4456
 <e59b91> <e59b91> 4457
 <e59b93> <e59b93> 4458
 <e59b97> <e59b97> 4459
@@ -1390,10 +1391,10 @@ endcidrange
 <e5a0a4> <e5a0a4> 3077
 <e5a0aa> <e5a0aa> 1514
 <e5a0af> <e5a0af> 7474
-<e5a0b0> <e5a0b0> 1283
 endcidrange
 
 100 begincidrange
+<e5a0b0> <e5a0b0> 1283
 <e5a0b1> <e5a0b1> 3651
 <e5a0b4> <e5a0b4> 2516
 <e5a0b5> <e5a0b5> 3138
@@ -1493,10 +1494,10 @@ endcidrange
 <e5a584> <e5a584> 1284
 <e5a587> <e5a587> 1581
 <e5a588> <e5a588> 3256
-<e5a589> <e5a589> 3652
 endcidrange
 
 100 begincidrange
+<e5a589> <e5a589> 3652
 <e5a58e> <e5a58e> 4552
 <e5a58f> <e5a58f> 2775
 <e5a590> <e5a590> 4551
@@ -1596,10 +1597,10 @@ endcidrange
 <e5ab89> <e5ab89> 2279
 <e5ab8b> <e5ab8b> 4589
 <e5ab8c> <e5ab8c> 1871
-<e5ab90> <e5ab90> 4603
 endcidrange
 
 100 begincidrange
+<e5ab90> <e5ab90> 4603
 <e5ab96> <e5ab96> 4596
 <e5ab97> <e5ab97> 4593
 <e5aba1> <e5aba1> 2978
@@ -1699,10 +1700,10 @@ endcidrange
 <e5afa2> <e5afa2> 4633
 <e5afa4> <e5afa4> 4631
 <e5afa5> <e5afa5> 4635
-<e5afa6> <e5afa6> 4632
 endcidrange
 
 100 begincidrange
+<e5afa6> <e5afa6> 4632
 <e5afa7> <e5afa7> 3297
 <e5afa8> <e5afa8> 5262
 <e5afa9> <e5afa9> 2553
@@ -1802,10 +1803,10 @@ endcidrange
 <e5b3a9> <e5b3a9> 4675
 <e5b3aa> <e5b3aa> 4680
 <e5b3ad> <e5b3ad> 4678
-<e5b3af> <e5b3af> 3655
 endcidrange
 
 100 begincidrange
+<e5b3af> <e5b3af> 3655
 <e5b3b0> <e5b3b0> 3654
 <e5b3b5> <e5b3b5> 8440
 <e5b3b6> <e5b3b6> 3169
@@ -1905,10 +1906,10 @@ endcidrange
 <e5b8b8> <e5b8b8> 2519
 <e5b8bd> <e5b8bd> 3687
 <e5b980> <e5b980> 4729
-<e5b983> <e5b983> 4728
 endcidrange
 
 100 begincidrange
+<e5b983> <e5b983> 4728
 <e5b984> <e5b984> 4727
 <e5b985> <e5b985> 3567
 <e5b987> <e5b987> 4736
@@ -2008,10 +2009,10 @@ endcidrange
 <e5bca6> <e5bca6> 1901
 <e5bca7> <e5bca7> 1920
 <e5bca9> <e5bca9> 4771
-<e5bcad> <e5bcad> 4772
 endcidrange
 
 100 begincidrange
+<e5bcad> <e5bcad> 4772
 <e5bcaf> <e5bcaf> 4778
 <e5bcb1> <e5bcb1> 2321
 <e5bcb4> <e5bcb4> 8450
@@ -2111,10 +2112,10 @@ endcidrange
 <e6809c> <e6809c> 4015
 <e6809d> <e6809d> 2213
 <e680a0> <e680a0> 2869
-<e680a1> <e680a1> 4809
 endcidrange
 
 100 begincidrange
+<e680a1> <e680a1> 4809
 <e680a5> <e680a5> 1656
 <e680a6> <e680a6> 4819
 <e680a7> <e680a7> 2641
@@ -2214,10 +2215,10 @@ endcidrange
 <e68486> <e68486> 4861
 <e68488> <e68488> 3848
 <e68489> <e68489> 3847
-<e6848d> <e6848e> 4871
 endcidrange
 
 100 begincidrange
+<e6848d> <e6848e> 4871
 <e6848f> <e6848f> 1177
 <e68491> <e68491> 8461
 <e68495> <e68495> 4860
@@ -2317,10 +2318,10 @@ endcidrange
 <e6888e> <e6888e> 2377
 <e68890> <e68890> 2642
 <e68891> <e68891> 1382
-<e68892> <e68892> 1404
 endcidrange
 
 100 begincidrange
+<e68892> <e68892> 1404
 <e68893> <e68893> 8465
 <e68894> <e68894> 4934
 <e68896> <e68896> 1155
@@ -2420,10 +2421,10 @@ endcidrange
 <e68bb5> <e68bb5> 4982
 <e68bb6> <e68bb6> 2160
 <e68bb7> <e68bb7> 2043
-<e68bbe> <e68bbe> 2352
 endcidrange
 
 100 begincidrange
+<e68bbe> <e68bbe> 2352
 <e68bbf> <e68bbf> 4964
 <e68c81> <e68c81> 2251
 <e68c82> <e68c82> 4979
@@ -2523,10 +2524,10 @@ endcidrange
 <e690b6> <e690b6> 5014
 <e690ba> <e690ba> 1822
 <e690be> <e690be> 2145
-<e69182> <e69182> 2689
 endcidrange
 
 100 begincidrange
+<e69182> <e69182> 2689
 <e6918e> <e6918e> 5022
 <e69191> <e69191> 7747
 <e69198> <e69198> 3104
@@ -2626,10 +2627,10 @@ endcidrange
 <e69682> <e69683> 5073
 <e69687> <e69687> 3592
 <e69688> <e69688> 4620
-<e69689> <e69689> 2666
 endcidrange
 
 100 begincidrange
+<e69689> <e69689> 2666
 <e6968c> <e6968c> 3518
 <e6968e> <e6968e> 2120
 <e69690> <e69690> 3449
@@ -2729,10 +2730,10 @@ endcidrange
 <e699af> <e699af> 1824
 <e699b0> <e699b0> 5111
 <e699b3> <e699b3> 8482
-<e699b4> <e699b4> 2646
 endcidrange
 
 100 begincidrange
+<e699b4> <e699b4> 2646
 <e699b6> <e699b6> 2469
 <e699ba> <e699ba> 2960
 <e69a81> <e69a81> 1727
@@ -2832,10 +2833,10 @@ endcidrange
 <e69d9f> <e69d9f> 2827
 <e69da0> <e69da0> 5149
 <e69da1> <e69da1> 2522
-<e69da2> <e69da2> 3817
 endcidrange
 
 100 begincidrange
+<e69da2> <e69da2> 3817
 <e69da3> <e69da4> 5151
 <e69da5> <e69da5> 3922
 <e69da6> <e69da6> 8490
@@ -2935,10 +2936,10 @@ endcidrange
 <e6a18e> <e6a18e> 5186
 <e6a190> <e6a190> 1733
 <e6a191> <e6a191> 1794
-<e6a192> <e6a192> 8492
 endcidrange
 
 100 begincidrange
+<e6a192> <e6a192> 8492
 <e6a193> <e6a193> 1528
 <e6a194> <e6a194> 1637
 <e6a199> <e6a199> 5189
@@ -3038,10 +3039,10 @@ endcidrange
 <e6a599> <e6a599> 5247
 <e6a59a> <e6a59a> 2753
 <e6a59c> <e6a59c> 5238
-<e6a59d> <e6a59d> 5251
 endcidrange
 
 100 begincidrange
+<e6a59d> <e6a59d> 5251
 <e6a59e> <e6a59e> 5250
 <e6a5a0> <e6a5a0> 3271
 <e6a5a1> <e6a5a1> 5249
@@ -3141,10 +3142,10 @@ endcidrange
 <e6a99f> <e6a99f> 1595
 <e6a9a1> <e6a9a1> 3235
 <e6a9a2> <e6a9a2> 5300
-<e6a9a6> <e6a9a6> 5302
 endcidrange
 
 100 begincidrange
+<e6a9a6> <e6a9a6> 5302
 <e6a9ab> <e6a9ab> 8503
 <e6a9b2> <e6a9b2> 5296
 <e6a9b3> <e6a9b3> 8505
@@ -3244,10 +3245,10 @@ endcidrange
 <e6aeb4> <e6aeb4> 1317
 <e6aeb5> <e6aeb5> 2952
 <e6aeb7> <e6aeb7> 5365
-<e6aeba> <e6aeba> 2164
 endcidrange
 
 100 begincidrange
+<e6aeba> <e6aeba> 2164
 <e6aebb> <e6aebb> 1450
 <e6aebc> <e6aebc> 5366
 <e6aebf> <e6aebf> 3132
@@ -3347,10 +3348,10 @@ endcidrange
 <e6b39d> <e6b39d> 5402
 <e6b3a1> <e6b3a1> 3664
 <e6b3a2> <e6b3a2> 3326
-<e6b3a3> <e6b3a3> 1661
 endcidrange
 
 100 begincidrange
+<e6b3a3> <e6b3a3> 1661
 <e6b3a5> <e6b3a5> 3103
 <e6b3a8> <e6b3a8> 2987
 <e6b3aa> <e6b3aa> 5410
@@ -3450,10 +3451,10 @@ endcidrange
 <e6b888> <e6b888> 2113
 <e6b889> <e6b889> 2476
 <e6b88a> <e6b88a> 5434
-<e6b88b> <e6b88b> 2380
 endcidrange
 
 100 begincidrange
+<e6b88b> <e6b88b> 2380
 <e6b893> <e6b893> 1826
 <e6b895> <e6b895> 5433
 <e6b899> <e6b899> 5455
@@ -3553,10 +3554,10 @@ endcidrange
 <e6bcb2> <e6bcb2> 5498
 <e6bcb8> <e6bcb8> 2740
 <e6bcbe> <e6bcbe> 5500
-<e6bcbf> <e6bcbf> 5494
 endcidrange
 
 100 begincidrange
+<e6bcbf> <e6bcbf> 5494
 <e6bd81> <e6bd81> 5488
 <e6bd85> <e6bd85> 1535
 <e6bd91> <e6bd91> 7776
@@ -3656,10 +3657,10 @@ endcidrange
 <e782ab> <e782ab> 8536
 <e782ac> <e782ac> 5556
 <e782ad> <e782ad> 2936
-<e782ae> <e782ae> 5559
 endcidrange
 
 100 begincidrange
+<e782ae> <e782ae> 5559
 <e782af> <e782af> 5554
 <e782b3> <e782b3> 5558
 <e782b8> <e782b8> 5557
@@ -3759,10 +3760,10 @@ endcidrange
 <e788be> <e788be> 2256
 <e788bf> <e788bf> 5606
 <e78980> <e78980> 5607
-<e78986> <e78986> 5608
 endcidrange
 
 100 begincidrange
+<e78986> <e78986> 5608
 <e78987> <e78987> 3618
 <e78988> <e78988> 3419
 <e7898b> <e7898b> 5609
@@ -3862,10 +3863,10 @@ endcidrange
 <e78ebd> <e78ebd> 8550
 <e78f80> <e78f80> 5658
 <e78f82> <e78f82> 1361
-<e78f88> <e78f88> 5654
 endcidrange
 
 100 begincidrange
+<e78f88> <e78f88> 5654
 <e78f89> <e78f89> 8551
 <e78f8a> <e78f8a> 2183
 <e78f8d> <e78f8d> 3037
@@ -3965,10 +3966,10 @@ endcidrange
 <e794a6> <e794a6> 5707
 <e794a8> <e794a8> 3899
 <e794ab> <e794ab> 3635
-<e794ac> <e794ac> 5708
 endcidrange
 
 100 begincidrange
+<e794ac> <e794ac> 5708
 <e794af> <e794af> 8434
 <e794b0> <e794b0> 3134
 <e794b1> <e794b1> 3869
@@ -4068,10 +4069,10 @@ endcidrange
 <e798a7> <e798a7> 5761
 <e798b0> <e798b0> 5767
 <e798b4> <e798b4> 5766
-<e798bb> <e798bb> 5768
 endcidrange
 
 100 begincidrange
+<e798bb> <e798bb> 5768
 <e79982> <e79982> 3981
 <e79986> <e79986> 5771
 <e79987> <e79988> 5769
@@ -4171,10 +4172,10 @@ endcidrange
 <e79da8> <e79da8> 5824
 <e79dab> <e79dab> 5825
 <e79db9> <e79db9> 5830
-<e79dbe> <e79dbe> 5829
 endcidrange
 
 100 begincidrange
+<e79dbe> <e79dbe> 5829
 <e79dbf> <e79dbf> 5828
 <e79e8b> <e79e8b> 5832
 <e79e8e> <e79e8e> 5831
@@ -4274,10 +4275,10 @@ endcidrange
 <e7a492> <e7a492> 5881
 <e7a499> <e7a499> 5883
 <e7a4a6> <e7a4a6> 5853
-<e7a4aa> <e7a4aa> 5855
 endcidrange
 
 100 begincidrange
+<e7a4aa> <e7a4aa> 5855
 <e7a4ab> <e7a4ab> 5885
 <e7a4ac> <e7a4ac> 5884
 <e7a4b0> <e7a4b0> 8578
@@ -4377,10 +4378,10 @@ endcidrange
 <e7a98f> <e7a98f> 1338
 <e7a990> <e7a990> 1136
 <e7a997> <e7a997> 5922
-<e7a9a1> <e7a9a2> 5924
 endcidrange
 
 100 begincidrange
+<e7a9a1> <e7a9a2> 5924
 <e7a9a3> <e7a9a3> 2527
 <e7a9a9> <e7a9a9> 5926
 <e7a9ab> <e7a9ab> 1453
@@ -4480,10 +4481,10 @@ endcidrange
 <e7ada5> <e7ada5> 5977
 <e7ada7> <e7ada7> 5979
 <e7adac> <e7adac> 5982
-<e7adae> <e7adae> 5983
 endcidrange
 
 100 begincidrange
+<e7adae> <e7adae> 5983
 <e7adb0> <e7adb1> 5980
 <e7adb4> <e7adb4> 5978
 <e7adb5> <e7adb5> 5976
@@ -4583,10 +4584,10 @@ endcidrange
 <e7b2a2> <e7b2a2> 6040
 <e7b2a4> <e7b2a4> 6038
 <e7b2a5> <e7b2a5> 1501
-<e7b2a7> <e7b2a7> 2489
 endcidrange
 
 100 begincidrange
+<e7b2a7> <e7b2a7> 2489
 <e7b2a8> <e7b2a8> 6043
 <e7b2ab> <e7b2ab> 6041
 <e7b2ad> <e7b2ad> 6039
@@ -4686,10 +4687,10 @@ endcidrange
 <e7b69b> <e7b69b> 6088
 <e7b69c> <e7b69c> 2800
 <e7b69f> <e7b69f> 6101
-<e7b6a0> <e7b6a0> 8594
 endcidrange
 
 100 begincidrange
+<e7b6a0> <e7b6a0> 8594
 <e7b6a2> <e7b6a2> 6097
 <e7b6a3> <e7b6a3> 6091
 <e7b6ab> <e7b6ab> 6095
@@ -4789,10 +4790,10 @@ endcidrange
 <e7ba8a> <e7ba8a> 8359
 <e7ba8c> <e7ba8c> 6147
 <e7ba8e> <e7ba8e> 6153
-<e7ba8f> <e7ba8f> 3125
 endcidrange
 
 100 begincidrange
+<e7ba8f> <e7ba8f> 3125
 <e7ba90> <e7ba90> 6149
 <e7ba92> <e7ba92> 6148
 <e7ba93> <e7ba94> 6150
@@ -4892,10 +4893,10 @@ endcidrange
 <e8819e> <e8819e> 3593
 <e8819f> <e8819f> 6218
 <e881a1> <e881a1> 2801
-<e881a2> <e881a2> 6219
 endcidrange
 
 100 begincidrange
+<e881a2> <e881a2> 6219
 <e881a8> <e881a8> 6220
 <e881af> <e881af> 4038
 <e881b0> <e881b0> 6223
@@ -4995,10 +4996,10 @@ endcidrange
 <e8868a> <e8868a> 6265
 <e8868f> <e8868f> 2019
 <e88693> <e88693> 6273
-<e88695> <e88695> 6269
 endcidrange
 
 100 begincidrange
+<e88695> <e88695> 6269
 <e8869a> <e8869a> 3544
 <e8869c> <e8869c> 3738
 <e8869d> <e8869d> 3482
@@ -5098,10 +5099,10 @@ endcidrange
 <e88aac> <e88aac> 6329
 <e88aad> <e88aad> 3332
 <e88aaf> <e88aaf> 2570
-<e88ab1> <e88ab1> 1366
 endcidrange
 
 100 begincidrange
+<e88ab1> <e88ab1> 1366
 <e88ab3> <e88ab3> 3669
 <e88ab8> <e88ab8> 1843
 <e88ab9> <e88ab9> 1748
@@ -5201,10 +5202,10 @@ endcidrange
 <e88fab> <e88fab> 6378
 <e88faf> <e88faf> 1370
 <e88fb0> <e88fb0> 1930
-<e88fb1> <e88fb1> 3483
 endcidrange
 
 100 begincidrange
+<e88fb1> <e88fb1> 3483
 <e88fb2> <e88fb2> 6388
 <e88fb4> <e88fb4> 6376
 <e88fb6> <e88fb6> 8604
@@ -5304,10 +5305,10 @@ endcidrange
 <e894bd> <e894bd> 3603
 <e894be> <e894be> 7861
 <e89580> <e89580> 6436
-<e89581> <e89581> 6440
 endcidrange
 
 100 begincidrange
+<e89581> <e89581> 6440
 <e89583> <e89583> 3437
 <e89588> <e89588> 6439
 <e89589> <e89589> 2494
@@ -5407,10 +5408,10 @@ endcidrange
 <e89aab> <e89aab> 6498
 <e89aaf> <e89aaf> 6492
 <e89ab0> <e89ab0> 6495
-<e89ab6> <e89ab6> 6491
 endcidrange
 
 100 begincidrange
+<e89ab6> <e89ab6> 6491
 <e89b84> <e89b84> 6493
 <e89b86> <e89b86> 6494
 <e89b87> <e89b87> 2308
@@ -5510,10 +5511,10 @@ endcidrange
 <e8a0a3> <e8a0a3> 6497
 <e8a0a7> <e8a0a7> 6571
 <e8a0b1> <e8a0b1> 6568
-<e8a0b6> <e8a0b6> 6569
 endcidrange
 
 100 begincidrange
+<e8a0b6> <e8a0b6> 6569
 <e8a0b9> <e8a0b9> 6570
 <e8a0bb> <e8a0bb> 6572
 <e8a180> <e8a180> 1858
@@ -5613,10 +5614,10 @@ endcidrange
 <e8a5aa> <e8a5aa> 6631
 <e8a5ad> <e8a5ad> 6630
 <e8a5af> <e8a5af> 6632
-<e8a5b2> <e8a5b2> 2363
 endcidrange
 
 100 begincidrange
+<e8a5b2> <e8a5b2> 2363
 <e8a5b4> <e8a5b4> 6633
 <e8a5b7> <e8a5b7> 6634
 <e8a5be> <e8a5be> 6635
@@ -5716,10 +5717,10 @@ endcidrange
 <e8aa8c> <e8aa8c> 2237
 <e8aa8d> <e8aa8d> 3293
 <e8aa91> <e8aa91> 6679
-<e8aa93> <e8aa93> 2660
 endcidrange
 
 100 begincidrange
+<e8aa93> <e8aa93> 2660
 <e8aa95> <e8aa95> 2944
 <e8aa98> <e8aa98> 3872
 <e8aa9a> <e8aa9a> 6682
@@ -5819,10 +5820,10 @@ endcidrange
 <e8ae80> <e8ae80> 6727
 <e8ae83> <e8ae83> 2188
 <e8ae8a> <e8ae8a> 5075
-<e8ae8c> <e8ae8c> 6728
 endcidrange
 
 100 begincidrange
+<e8ae8c> <e8ae8c> 6728
 <e8ae8e> <e8ae8e> 6729
 <e8ae90> <e8ae90> 2364
 <e8ae92> <e8ae93> 6730
@@ -5922,10 +5923,10 @@ endcidrange
 <e8b494> <e8b494> 6782
 <e8b496> <e8b496> 6783
 <e8b5a4> <e8b5a4> 2682
-<e8b5a6> <e8b5a6> 2299
 endcidrange
 
 100 begincidrange
+<e8b5a6> <e8b5a6> 2299
 <e8b5a7> <e8b5a7> 6784
 <e8b5ab> <e8b5ab> 1456
 <e8b5ad> <e8b5ad> 6785
@@ -6025,10 +6026,10 @@ endcidrange
 <e8bba3> <e8bba3> 6851
 <e8bbab> <e8bbab> 6854
 <e8bbb8> <e8bbb8> 2272
-<e8bbbb> <e8bbbb> 6853
 endcidrange
 
 100 begincidrange
+<e8bbbb> <e8bbbb> 6853
 <e8bbbc> <e8bbbc> 6852
 <e8bbbd> <e8bbbd> 1840
 <e8bbbe> <e8bbbe> 6855
@@ -6128,10 +6129,10 @@ endcidrange
 <e9809a> <e9809a> 3048
 <e9809d> <e9809d> 2662
 <e9809e> <e9809e> 6902
-<e9809f> <e9809f> 2830
 endcidrange
 
 100 begincidrange
+<e9809f> <e9809f> 2830
 <e980a0> <e980a0> 2820
 <e980a1> <e980a1> 6900
 <e980a2> <e980a2> 1133
@@ -6231,10 +6232,10 @@ endcidrange
 <e98592> <e98592> 2334
 <e98594> <e98594> 2610
 <e98596> <e98596> 6946
-<e98598> <e98598> 6947
 endcidrange
 
 100 begincidrange
+<e98598> <e98598> 6947
 <e985a2> <e985a2> 2595
 <e985a3> <e985a3> 6948
 <e985a5> <e985a5> 6949
@@ -6334,10 +6335,10 @@ endcidrange
 <e989b1> <e989b1> 2029
 <e989b7> <e989b8> 8658
 <e989be> <e989be> 3702
-<e98a80> <e98a80> 1756
 endcidrange
 
 100 begincidrange
+<e98a80> <e98a80> 1756
 <e98a83> <e98a83> 2384
 <e98a85> <e98a85> 3220
 <e98a88> <e98a88> 8362
@@ -6437,10 +6438,10 @@ endcidrange
 <e98fa1> <e98fa1> 1720
 <e98fa4> <e98fa4> 7030
 <e98fa5> <e98fa5> 7024
-<e98fa8> <e98fa8> 7023
 endcidrange
 
 100 begincidrange
+<e98fa8> <e98fa8> 7023
 <e98fb8> <e98fb8> 8681
 <e99083> <e99083> 7034
 <e99087> <e99087> 7035
@@ -6540,10 +6541,10 @@ endcidrange
 <e9999d> <e9999d> 7098
 <e9999e> <e9999e> 7097
 <e9999f> <e9999f> 7099
-<e999a2> <e999a2> 1219
 endcidrange
 
 100 begincidrange
+<e999a2> <e999a2> 1219
 <e999a3> <e999a3> 2590
 <e999a4> <e999a4> 2438
 <e999a5> <e999a5> 1557
@@ -6643,10 +6644,10 @@ endcidrange
 <e99cbb> <e99cbb> 8691
 <e99cbd> <e99cbe> 7138
 <e99d82> <e99d82> 7143
-<e99d83> <e99d83> 8692
 endcidrange
 
 100 begincidrange
+<e99d83> <e99d83> 8692
 <e99d84> <e99d84> 7140
 <e99d86> <e99d86> 7141
 <e99d88> <e99d88> 7142
@@ -6746,10 +6747,10 @@ endcidrange
 <e9a1a7> <e9a1a7> 1936
 <e9a1ab> <e9a1ab> 7189
 <e9a1af> <e9a1b1> 7190
-<e9a1b3> <e9a1b3> 7194
 endcidrange
 
 100 begincidrange
+<e9a1b3> <e9a1b3> 7194
 <e9a1b4> <e9a1b4> 7193
 <e9a2a8> <e9a2a8> 3561
 <e9a2aa> <e9a2aa> 7195
@@ -6849,10 +6850,10 @@ endcidrange
 <e9a985> <e9a985> 7251
 <e9a98d> <e9a98d> 7257
 <e9a98e> <e9a98e> 8704
-<e9a992> <e9a992> 7727
 endcidrange
 
 100 begincidrange
+<e9a992> <e9a992> 7727
 <e9a995> <e9a995> 7256
 <e9a997> <e9a997> 7259
 <e9a99a> <e9a99a> 1723
@@ -6952,10 +6953,10 @@ endcidrange
 <e9afb2> <e9afb2> 7331
 <e9afb5> <e9afb5> 1143
 <e9b080> <e9b080> 8712
-<e9b084> <e9b084> 7343
 endcidrange
 
 100 begincidrange
+<e9b084> <e9b084> 7343
 <e9b086> <e9b086> 7339
 <e9b088> <e9b088> 7340
 <e9b089> <e9b089> 7336
@@ -7055,10 +7056,10 @@ endcidrange
 <e9b786> <e9b786> 7401
 <e9b78f> <e9b78f> 7402
 <e9b793> <e9b793> 7405
-<e9b797> <e9b797> 7646
 endcidrange
 
 100 begincidrange
+<e9b797> <e9b797> 7646
 <e9b799> <e9b799> 7404
 <e9b7a6> <e9b7a6> 7407
 <e9b7ad> <e9b7ad> 7408
@@ -7158,10 +7159,10 @@ endcidrange
 <efa891> <efa891> 8443
 <efa892> <efa892> 8481
 <efa893> <efa893> 8497
-<efa894> <efa894> 8499
 endcidrange
 
-73 begincidrange
+74 begincidrange
+<efa894> <efa894> 8499
 <efa895> <efa895> 8542
 <efa896> <efa896> 8548
 <efa897> <efa897> 8571
@@ -7205,7 +7206,7 @@ endcidrange
 <efbc8a> <efbc8a> 718
 <efbc8b> <efbc8b> 692
 <efbc8c> <efbc8c> 636
-<efbc8d> <efbc8d> 662
+<efbc8d> <efbc8d> 693
 <efbc8e> <efbc8e> 637
 <efbc8f> <efbc8f> 663
 <efbc90> <efbc99> 780
