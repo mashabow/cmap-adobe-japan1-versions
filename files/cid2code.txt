@@ -1,4 +1,4 @@
-# cid2code.txt (Version 12/14/2005)
+# cid2code.txt (Version 05/04/2006)
 #
 # The data in this table contains 28 tab-delimited columns of
 # information. The contents of this file supplement Technical Notes
@@ -20843,8 +20843,8 @@ CID	H	RKSJ	EUC	83pv-RKSJ	Add	Add-RKSJ	Ext	Ext-RKSJ	NWP	90pv-RKSJ	90ms-RKSJ	90msp
 20584	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 20585	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 20586	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-20587	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-20588	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
+20587	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	e29291	2491	00002491	00002491	*	*	*	*	*
+20588	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	e29292	2492	00002492	00002492	*	*	*	*	*
 20589	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 20590	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 20591	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
