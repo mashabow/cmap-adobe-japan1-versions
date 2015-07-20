@@ -4,10 +4,10 @@
 %%IncludeResource: ProcSet (CIDInit)
 %%IncludeResource: CMap (UniJIS-UTF32-H)
 %%BeginResource: CMap (UniJIS-UTF32-V)
-%%Title: (UniJIS-UTF32-V Adobe Japan1 5)
-%%Version: 1.000
+%%Title: (UniJIS-UTF32-V Adobe Japan1 6)
+%%Version: 1.001
 %%Copyright: -----------------------------------------------------------
-%%Copyright: Copyright 1990-2002 Adobe Systems Incorporated.
+%%Copyright: Copyright 1990-2004 Adobe Systems Incorporated.
 %%Copyright: All Rights Reserved.
 %%Copyright:
 %%Copyright: Patents Pending
@@ -37,11 +37,11 @@ begincmap
 /CIDSystemInfo 3 dict dup begin
   /Registry (Adobe) def
   /Ordering (Japan1) def
-  /Supplement 5 def
+  /Supplement 6 def
 end def
 
 /CMapName /UniJIS-UTF32-V def
-/CMapVersion 1.000 def
+/CMapVersion 1.001 def
 /CMapType 1 def
 
 /XUID [1 10 25610] def
