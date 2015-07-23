@@ -1,10 +1,10 @@
-# cid2code.txt (Version 11/18/2010)
+# cid2code.txt (Version 02/04/2012)
 #
 # The data in this table contains 32 tab-delimited columns of
 # information. The contents of this file supplement Technical Notes
-# #5078 "Adobe-Japan1-6 Character Collection for CID Keyed Fonts":
+# #5078 "The Adobe-Japan1-6 Character Collection":
 #
-# http://www.adobe.com/devnet/font/
+# http://www.adobe.com/devnet/font.html
 #
 # This table contains lists CIDs 0 through 23057 in the first column,
 # and provides additional columns that indicate whether a CID is used
@@ -105,36 +105,36 @@
 #   files is recommended.)
 #
 # o Column 20: Character codes for the "UniJIS-UTF8-H" and
-#   "UniJIS-UTF8-V" CMaps (Unicode 6.0 UTF-8 encoding, proportional
+#   "UniJIS-UTF8-V" CMaps (Unicode 6.1 UTF-8 encoding, proportional
 #   Latin characters).
 #
 # o Column 21: Character codes for the "UniJIS-UTF16-H" and
-#   "UniJIS-UTF16-V" CMaps (Unicode 6.0 UTF-16 encoding, proportional
+#   "UniJIS-UTF16-V" CMaps (Unicode 6.1 UTF-16 encoding, proportional
 #   Latin characters).
 #
 # o Column 22: Character codes for the "UniJIS-UTF32-H" and
-#   "UniJIS-UTF32-V" CMaps (Unicode 6.0 UTF-32 encoding, proportional
+#   "UniJIS-UTF32-V" CMaps (Unicode 6.1 UTF-32 encoding, proportional
 #   Latin characters).
 #
 # o Column 23: Character codes for the "UniJIS2004-UTF8-H" and
-#   "UniJIS2004-UTF8-V" CMaps (Unicode 6.0 UTF-8 encoding, proportional
+#   "UniJIS2004-UTF8-V" CMaps (Unicode 6.1 UTF-8 encoding, proportional
 #   Latin characters, JIS X 0213:2004 prototypical glyphs as the default).
 #
 # o Column 24: Character codes for the "UniJIS2004-UTF16-H" and
-#   "UniJIS2004-UTF16-V" CMaps (Unicode 6.0 UTF-16 encoding, proportional
+#   "UniJIS2004-UTF16-V" CMaps (Unicode 6.1 UTF-16 encoding, proportional
 #   Latin characters, JIS X 0213:2004 prototypical glyphs as the default).
 #
 # o Column 25: Character codes for the "UniJIS2004-UTF32-H" and
-#   "UniJIS2004-UTF32-V" CMaps (Unicode 6.0 UTF-32 encoding, proportional
+#   "UniJIS2004-UTF32-V" CMaps (Unicode 6.1 UTF-32 encoding, proportional
 #   Latin characters, JIS X 0213:2004 prototypical glyphs as the default).
 #
 # o Column 26: Character codes for the "UniJISX0213-UTF32-H" and
-#   "UniJISX0213-UTF32-V" CMaps (Unicode 6.0 UTF-32 encoding,
+#   "UniJISX0213-UTF32-V" CMaps (Unicode 6.1 UTF-32 encoding,
 #   proportional Latin characters, some proportional JIS X 0208:1997
 #   characters).
 #
 # o Column 27: Character codes for the "UniJISX02132004-UTF32-H" and
-#   "UniJISX02132004-UTF32-V" CMaps (Unicode 6.0 UTF-32 encoding,
+#   "UniJISX02132004-UTF32-V" CMaps (Unicode 6.1 UTF-32 encoding,
 #   proportional Latin characters, some proportional JIS X 0208:1997
 #   characters, JIS X 0213:2004 prototypical glyphs as the default).
 #
@@ -173,9 +173,11 @@
 #       Note, however, that these "Pro" CMap files are no longer being
 #       maintained, and the UTF ones should be used instead.
 #
-# NOTE: The UniJIS-UTF32-H and UniJISX0213-UTF32-H CMap files each
-#       contain 15,674 mappings, but the following 65 mappings differ,
-#       with the UniJISX0213-UTF32-H mappings in parentheses:
+# NOTE: The UniJIS-UTF32-H and UniJISX0213-UTF32-H CMap resources each
+#       contain the same number of mappings, but the following 65
+#       mappings differ, with the UniJISX0213-UTF32-H mappings shown
+#       in parentheses (the UniJIS2004-UTF32-H and UniJISX02132004-
+#       UTF32-H CMap resources exhibit these same differences):
 #
 #       U+00A7  720 (106)
 #       U+00A8  647 (132)
@@ -257,25 +259,26 @@
 #       U+337E  12041 (UniJISX0213-UTF32-V only)
 #       U+FF1A  12101 (UniJISX0213-UTF32-V only)
 #
-#       When developing OpenType fonts, the UniJIS-UTF32-H and
-#       UniJIS-UTF32-V CMap files should be used with Adobe's OpenType
-#       FDK, specifically MakeOTF, as arguments to the "-ch" and "-cv"
-#       options, respectively, under the following conditions:
+#       When developing OpenType fonts, the UniJIS-UTF32-H CMap
+#       resource should be used with AFDKO, specifically the MakeOTF
+#       tool, as arguments to the "-ch" command-line options, under
+#       the following conditions:
 #
 #       1) If the advertised /Supplement is 4 or less, meaning that
 #          the highest CID is 15443.
 #
 #       2) If the advertised /Supplement is 5, and if all of the
-#          UniJISX0213-UTF32-H- and UniJISX0213-UTF32-V-specific
-#          glyphs, as listed above, are not included.
+#          glyphs specific to the UniJISX0213-UTF32-H CMap resource,
+#          as listed above, are not included.
 #
-#       Also, the UniJISX0213-UTF32-H and UniJISX0213-UTF32-V CMap
-#       files should be used if all 23,057 CIDs are included.
+#       The UniJISX0213-UTF32-H CMap resource should be used if all
+#       23,057 CIDs are included.
 #
-# NOTE: The "UniJIS2004-" (and "UniJISX02132004-UTF32-H") CMap files
-#       use JIS X 0213:2004 protypical glyphs as the default, and
-#       differ from the corresponding "UniJIS-" (and "UniJISX0213-
-#       UTF32-H") CMap files for the following 170 mappings:
+# NOTE: The "UniJIS2004-" (and "UniJISX02132004-UTF32-H") CMap
+#       resources use JIS X 0213:2004 protypical glyphs as the
+#       default, and differ from the corresponding "UniJIS-" (and
+#       "UniJISX0213-UTF32-H") CMap resources for the following 170
+#       mappings:
 #
 #       Unicode  UniJIS-  UniJIS2004-
 #       U+2F5B   1383     7965
@@ -1132,8 +1135,8 @@ CID	H	RKSJ	EUC	83pv-RKSJ	Add	Add-RKSJ	Ext	Ext-RKSJ	NWP	90pv-RKSJ	90ms-RKSJ	90msp
 679	214f	816e	a1cf	816e	214f	816e	214f	816e	214f,2e5d	816e	816e	816e	214f	816e	816e	a1cf	ff3d	*	efbcbd	ff3d	0000ff3d	efbcbd	ff3d	0000ff3d	0000ff3d	0000ff3d	*	*	*	*	*
 680	2150	816f	a1d0	816f	2150	816f	2150	816f	2150,2e7b	816f	816f	816f	2150	816f	816f	a1d0	ff5b	*	efbd9b	ff5b	0000ff5b	efbd9b	ff5b	0000ff5b	0000ff5b	0000ff5b	*	*	*	*	*
 681	2151	8170	a1d1	8170	2151	8170	2151	8170	2151,2e7d	8170	8170	8170	2151	8170	8170	a1d1	ff5d	*	efbd9d	ff5d	0000ff5d	efbd9d	ff5d	0000ff5d	0000ff5d	0000ff5d	*	*	*	*	*
-682	2152	8171	a1d2	8171	2152	8171	2152	8171	2152	8171	8171	8171	2152	8171	8171	a1d2	3008	*	e38088	3008	00003008	e38088	3008	00003008	00003008	00003008	*	*	*	*	*
-683	2153	8172	a1d3	8172	2153	8172	2153	8172	2153	8172	8172	8172	2153	8172	8172	a1d3	3009	*	e38089	3009	00003009	e38089	3009	00003009	00003009	00003009	*	*	*	*	*
+682	2152	8171	a1d2	8171	2152	8171	2152	8171	2152	8171	8171	8171	2152	8171	8171	a1d2	3008	*	e28ca9,e38088	2329,3008	00002329,00003008	e28ca9,e38088	2329,3008	00002329,00003008	00002329,00003008	00002329,00003008	*	*	*	*	*
+683	2153	8172	a1d3	8172	2153	8172	2153	8172	2153	8172	8172	8172	2153	8172	8172	a1d3	3009	*	e28caa,e38089	232a,3009	0000232a,00003009	e28caa,e38089	232a,3009	0000232a,00003009	0000232a,00003009	0000232a,00003009	*	*	*	*	*
 684	2154	8173	a1d4	8173	2154	8173	2154	8173	2154	8173	8173	8173	2154	8173	8173	a1d4	300a	*	e3808a	300a	0000300a	e3808a	300a	0000300a	0000300a	0000300a	*	*	*	*	*
 685	2155	8174	a1d5	8174	2155	8174	2155	8174	2155	8174	8174	8174	2155	8174	8174	a1d5	300b	*	e3808b	300b	0000300b	e3808b	300b	0000300b	0000300b	0000300b	*	*	*	*	*
 686	2156	8175	a1d6	8175	2156	8175	2156	8175	2156,2f22	8175	8175	8175	2156	8175	8175	a1d6	300c	*	e3808c	300c	0000300c	e3808c	300c	0000300c	0000300c	0000300c	*	*	*	*	*
@@ -20606,7 +20609,7 @@ CID	H	RKSJ	EUC	83pv-RKSJ	Add	Add-RKSJ	Ext	Ext-RKSJ	NWP	90pv-RKSJ	90ms-RKSJ	90msp
 20153	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	f0ab9e94	d86ddf94	0002b794	f0ab9e94	d86ddf94	0002b794	0002b794	0002b794	*	*	*	*	*
 20154	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 20155	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-20156	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
+20156	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	e9bf8c	9fcc	00009fcc	e9bf8c	9fcc	00009fcc	00009fcc	00009fcc	*	*	*	*	*
 20157	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 20158	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	e3b4b1	3d31	00003d31	e3b4b1	3d31	00003d31	00003d31	00003d31	*	*	*	*	*
 20159	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*

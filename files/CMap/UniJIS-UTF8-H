@@ -3,9 +3,9 @@
 %%IncludeResource: ProcSet (CIDInit)
 %%BeginResource: CMap (UniJIS-UTF8-H)
 %%Title: (UniJIS-UTF8-H Adobe Japan1 6)
-%%Version: 13.015
+%%Version: 13.016
 %%Copyright: -----------------------------------------------------------
-%%Copyright: Copyright 1990-2010 Adobe Systems Incorporated.
+%%Copyright: Copyright 1990-2012 Adobe Systems Incorporated.
 %%Copyright: All rights reserved.
 %%Copyright:
 %%Copyright: Redistribution and use in source and binary forms, with or
@@ -55,7 +55,7 @@ begincmap
 end def
 
 /CMapName /UniJIS-UTF8-H def
-/CMapVersion 13.015 def
+/CMapVersion 13.016 def
 /CMapType 1 def
 
 /XUID [1 10 25359] def
@@ -13099,6 +13099,7 @@ endcidchar
 <e9bebf> 20068
 <e9bf84> 14089
 <e9bf86> 14168
+<e9bf8c> 20156
 <efa1ba> 15447
 <efa1bf> 15448
 <efa489> 13739
@@ -13151,10 +13152,10 @@ endcidchar
 <efa8b5> 13378
 <efa8b6> 7651
 <efa8b7> 13366
-<efa8b8> 13333
 endcidchar
 
 100 begincidchar
+<efa8b8> 13333
 <efa8b9> 13384
 <efa8ba> 13387
 <efa8bb> 13361
@@ -13254,10 +13255,10 @@ endcidchar
 <f0a0828a> 14108
 <f0a082a2> 17240
 <f0a082a4> 17243
-<f0a082b0> 14209
 endcidchar
 
 100 begincidchar
+<f0a082b0> 14209
 <f0a083b5> 20057
 <f0a08598> 20075
 <f0a086a2> 13857
@@ -13357,10 +13358,10 @@ endcidchar
 <f0a38f8c> 14140
 <f0a38f90> 17768
 <f0a38f92> 17764
-<f0a38f93> 17763
 endcidchar
 
 100 begincidchar
+<f0a38f93> 17763
 <f0a38f95> 17770
 <f0a38f9a> 17772
 <f0a38f9f> 17774
@@ -13460,10 +13461,10 @@ endcidchar
 <f0a5bba8> 18329
 <f0a5bca3> 18330
 <f0a5bd9c> 18332
-<f0a5bf94> 18339
 endcidchar
 
 100 begincidchar
+<f0a5bf94> 18339
 <f0a5bfa0> 18338
 <f0a5bfbb> 18345
 <f0a6808c> 18344
@@ -13563,10 +13564,10 @@ endcidchar
 <f0a8bbab> 18895
 <f0a8bbb6> 7673
 <f0a8bcb2> 18897
-<f0a8bfb8> 18903
 endcidchar
 
 100 begincidchar
+<f0a8bfb8> 18903
 <f0a98aa0> 18917
 <f0a98ab1> 18918
 <f0a99290> 18935
@@ -13666,10 +13667,10 @@ endcidchar
 <f0afa585> 13357
 <f0afa587> 13854
 <f0afa5ac> 14180
-<f0afa695> 13670
 endcidchar
 
-4 begincidchar
+5 begincidchar
+<f0afa695> 13670
 <f0afa790> 14068
 <f0afa79e> 20066
 <f0afa79f> 14069
@@ -13747,6 +13748,7 @@ endcidchar
 <e28a8a> <e28a8b> 15474
 <e28b9a> <e28b9b> 15725
 <e28c85> <e28c86> 15478
+<e28ca9> <e28caa> 682
 <e28e9d> <e28e9e> 12144
 <e28ea3> <e28ea4> 12152
 <e28ea7> <e28ea9> 8178
@@ -13776,10 +13778,10 @@ endcidchar
 <e29880> <e29883> 8215
 <e29896> <e29897> 16233
 <e2989c> <e2989d> 8220
-<e299a8> <e299a9> 12098
 endcidrange
 
 100 begincidrange
+<e299a8> <e299a9> 12098
 <e299b2> <e299bd> 16314
 <e29db6> <e29dbe> 8286
 <e2a4b4> <e2a4b5> 16201
@@ -13879,10 +13881,10 @@ endcidrange
 <e58881> <e58882> 14355
 <e588b1> <e588b2> 19187
 <e5898b> <e5898c> 4261
-<e589b8> <e589b9> 19194
 endcidrange
 
 100 begincidrange
+<e589b8> <e589b9> 19194
 <e58a95> <e58a97> 21198
 <e58aac> <e58aad> 4279
 <e58ab6> <e58ab8> 21205
@@ -13982,10 +13984,10 @@ endcidrange
 <e68492> <e68494> 14547
 <e68598> <e6859a> 4887
 <e68680> <e68681> 21583
-<e68683> <e68684> 21585
 endcidrange
 
 100 begincidrange
+<e68683> <e68684> 21585
 <e68692> <e68693> 17648
 <e68780> <e68781> 21591
 <e6878e> <e6878f> 21593
@@ -14085,10 +14087,10 @@ endcidrange
 <e78b95> <e78b96> 21960
 <e78ba0> <e78ba1> 5628
 <e78c84> <e78c85> 14784
-<e78c98> <e78c99> 18067
 endcidrange
 
 100 begincidrange
+<e78c98> <e78c99> 18067
 <e78cb6> <e78cb7> 3867
 <e78cba> <e78cbb> 19538
 <e78d8e> <e78d8f> 5643
@@ -14188,10 +14190,10 @@ endcidrange
 <e8879d> <e8879e> 19717
 <e8879f> <e887a0> 6290
 <e887b0> <e887b2> 22282
-<e887ba> <e887bb> 6293
 endcidrange
 
 100 begincidrange
+<e887ba> <e887bb> 6293
 <e88881> <e88882> 6296
 <e88893> <e88894> 19724
 <e889aa> <e889ab> 6317
@@ -14291,10 +14293,10 @@ endcidrange
 <e983be> <e983bf> 18792
 <e984a2> <e984a3> 17160
 <e98586> <e98587> 18800
-<e98693> <e98694> 22701
 endcidrange
 
 100 begincidrange
+<e98693> <e98694> 22701
 <e986ad> <e986ae> 15213
 <e98780> <e98781> 6963
 <e98783> <e98784> 18809
@@ -14394,10 +14396,10 @@ endcidrange
 <e9b189> <e9b18a> 19052
 <e9b18f> <e9b190> 17215
 <e9b1a9> <e9b1ab> 19060
-<e9b1ad> <e9b1ae> 19063
 endcidrange
 
-63 begincidrange
+64 begincidrange
+<e9b1ad> <e9b1ae> 19063
 <e9b497> <e9b498> 19073
 <e9b49d> <e9b49e> 17218
 <e9b4b3> <e9b4b4> 22988
