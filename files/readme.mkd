@@ -26,6 +26,6 @@ The *current-versions.txt* file includes a complete listing of all CMap resource
 
 ### CMap Resource Tools
 
-This page will soon include some tools, written in Perl, that are useful for manipulating CMap resources.
+Adobe Tech Note #5099, *Developing CMap Resources for CID-Keyed Fonts*, which is referenced in the **Developer Documentation** section of this project, includes as an attachment an industrial-strength CMap resource compiler/decompiler called *cmap-tool.pl*.
 
 That is all.
