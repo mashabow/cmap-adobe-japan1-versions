@@ -1,0 +1,31 @@
+### CMap Resources
+
+The links above are for the CMap resources associated with each character collection:
+
+*cmapresources_identity0.tar.z*: Adobe-Identity-0 (Special Purpose)  
+*cmapresources_cns1-6.tar.z*: Adobe-CNS1-6 (Traditional Chinese, including Hong Kong SCS-2008)  
+*cmapresources_gb1-5.tar.z*: Adobe-GB1-5 (Simplified Chinese)  
+*cmapresources_japan1-6.tar.z*: Adobe-Japan1-6 (Japanese)  
+*cmapresources_korean1-2.tar.z*: Adobe-Korea1-2 (Korean)
+
+### CMap Resources (Deprecated)
+
+The following are CMap resources for deprecated character collections:
+
+*Deprecated/cmapresources_japan2-0.tar.z*: Adobe-Japan2-0 (Japanese, for JIS X 0212-1990 only; **Replaced by Adobe-Japan1-6**)
+
+### CMap Resources (Obsolete)
+
+The following are CMap resources for previous, and now obsolete, character collection Supplements:
+
+*Obsolete/cmapresources_cns1-5.tar.z*: Adobe-CNS1-5 (Traditional Chinese, including Hong Kong SCS-2004; **Obsoleted by Adobe-CNS1-6**)
+
+### CMap Resource Versions
+
+The *current-versions.txt* file includes a complete listing of all CMap resources and their version, based on their advertised CMapVersion value.
+
+### CMap Resource Tools
+
+This page will soon include some tools, written in Perl, that are useful for manipulating CMap resources.
+
+That is all.
